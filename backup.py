@@ -72,5 +72,6 @@ def extract_names(payload):
         repo_names.append(repo['full_name'])
     return repo_names
 
+
 if __name__ == '__main__':
     main()
