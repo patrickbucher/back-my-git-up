@@ -17,7 +17,7 @@ In this repository's folder, run:
 
 ## Create Backup
 
-    $ ./backup.py [your GitHub token] [target directory]
+    $ ./backup.py [your GitHub token] backup/
     cloning git@github.com:patrickbucher/7l7w.git to backup/7l7w... done in 1.81 seconds
     cloning git@github.com:patrickbucher/Arduino.git to backup/Arduino... done in 1.58 seconds
     cloning git@github.com:patrickbucher/Raspi.git to backup/Raspi... done in 1.56 seconds
@@ -27,4 +27,4 @@ The target directory may already exist or, otherwise, will be created. Subsequen
 
 I suggest storing the GitHub token in a password manager, such as [`pass`](https://www.passwordstore.org/), and export the token as needed:
 
-    $ ./backup.py "$(pass show github-token)" github-backup
+    $ ./backup.py "$(pass show github-token)" backup/
