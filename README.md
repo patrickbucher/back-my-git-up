@@ -5,6 +5,7 @@ Simple GitHub backup script using [Ansible](https://docs.ansible.com/ansible/lat
 ## Prerequisites
 
 - Create a [personal GitHub token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) with access rights to your repositories.
+- Create an [SSH key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [add it](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) to your GitHub account.
 - Have Python 3 and the [`venv`](https://docs.python.org/3/library/venv.html) module (or some similar mechanism) installed.
 
 ## Setup
